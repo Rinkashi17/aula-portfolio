@@ -12,8 +12,8 @@ const Sobre = () => (
       aperiam?
     </Paragrafo>
     <GithubSecao>
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=Rinkashi17&show_icons=true&theme=tokyonight" />
-      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Rinkashi17&layout=compact&theme=tokyonight" />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Rinkashi17&show_icons=true&theme=tokyonight" />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Rinkashi17&layout=compact&theme=tokyonight" />
     </GithubSecao>
   </section>
 )

@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Portfolio em React
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="./public/screenshot.png" alt="Demonstração do Portfolio em React" width="100%">
+</div>
 
-## Available Scripts
+# ⚛️ Portfólio em React + TypeScript
 
-In the project directory, you can run:
+Este é um projeto de portfólio desenvolvido com tecnologias modernas de front-end. O objetivo é criar uma aplicação robusta, tipada e de fácil manutenção para exibir projetos e informações profissionais.
 
-### `npm start`
+## 🛠️ Tecnologias Utilizadas
+- **React**: Biblioteca principal para construção da interface.
+- **TypeScript**: Adição de tipagem estática para maior segurança e produtividade.
+- **ESLint & Prettier**: Padronização de código e formatação automática.
+- **CSS**: Estilização dos componentes (configurado via Create React App).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Funcionalidades do Projeto
+- Estrutura baseada em **Componentes**.
+- Tipagem de interfaces e props com **TypeScript**.
+- Ambiente de desenvolvimento configurado para boas práticas.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📁 Estrutura de Pastas
+```text
+├── src/
+│   ├── components/    # Componentes reutilizáveis
+│   ├── assets/        # Imagens e arquivos estáticos
+│   ├── App.tsx        # Componente principal
+│   └── index.tsx      # Ponto de entrada da aplicação
+├── public/            # Arquivos públicos (index.html, manifest)
+├── tsconfig.json      # Configurações do TypeScript
+└── .eslintrc.json     # Regras de linting
+⚙️ Como executar o projeto
+Clone o repositório:
 
-### `npm test`
+Bash
+git clone [https://github.com/Rinkashi17/aula-portfolio.git](https://github.com/Rinkashi17/aula-portfolio.git)
+Instale as dependências:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bash
+npm install
+Inicie o servidor de desenvolvimento:
 
-### `npm run build`
+Bash
+npm start
+Acesse http://localhost:3000 no seu navegador.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🧹 Padronização de Código
+O projeto utiliza ferramentas para manter o código limpo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run lint: Verifica erros de linting.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O Prettier está configurado para formatar o código ao salvar.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Desenvolvido por Rinkashi17
